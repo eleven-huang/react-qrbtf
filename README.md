@@ -16,18 +16,18 @@
 ### Installation & Usage
 
 ```sh
-npm install react-qrbtf --save
+npm install yh-react-qrbtf --save
 ```
 
 ### Docs
 
-[Read docs here](http://cpunisher.github.io/react-qrbtf/) (not yet completed)
+[Read docs here](https://github.com/eleven-huang/react-qrbtf.git)
 
 ### Include the Componet
 
 ```js
 import React from 'react'
-import { QRNormal } from 'react-qrbtf'
+import { QRNormal } from 'yh-react-qrbtf'
 
 class Component extends React.Component {
 

@@ -1,10 +1,10 @@
 {
-  "name": "react-qrbtf",
-  "version": "1.2.1",
+  "name": "yh-react-qrbtf",
+  "version": "1.0.0",
   "description": "A Collection of Components with beautiful QRCode styles",
-  "author": "CPunisher <1343316114@qq.com>",
+  "author": "Yijun <babykaokao@gmail.com>",
   "license": "MIT",
-  "bugs": "https://github.com/CPunisher/react-qrbtf/issues",
+  "bugs": "https://github.com/eleven-huang/react-qrbtf/pulls",
   "homepage": "https://qrbtf.com/",
   "keywords": [
     "react",
@@ -14,13 +14,13 @@
   "types": "dist/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/CPunisher/react-qrbtf.git"
+    "url": "https://github.com/eleven-huang/react-qrbtf.git"
   },
   "dependencies": {
     "lodash": "^4.17.15",
-    "react": "^16.13.1",
+    "react": "^17.0.2",
     "react-css": "0.0.2",
-    "react-dom": "^16.13.1",
+    "react-dom": "^17.0.2",
     "react-scripts": "3.4.1",
     "reactcss": "^1.2.3"
   },

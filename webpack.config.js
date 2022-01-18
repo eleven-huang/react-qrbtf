@@ -8,8 +8,9 @@ module.exports = {
         path: path.resolve(__dirname, 'dist'),
         filename: 'index.js',
         libraryTarget: 'umd',
-        library: 'react-qrbtf',
-        umdNamedDefine: true
+        library: 'yh-react-qrbtf',
+        umdNamedDefine: true,
+        globalObject: 'this'
     },
     resolve: {
         extensions: ['.ts', '.tsx', '.js']
