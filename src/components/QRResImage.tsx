@@ -21,7 +21,7 @@ interface QRResImageProps extends RendererProps {
 }
 
 const QRResImage: SFC<QRResImageProps> = (props) => {
-    const { qrcode, className, styles, otherColor } = props;
+    const { qrcode, className, styles, otherColor, posColor } = props;
 
     const [gpl, setGPL] = useState<Array<JSX.Element>>([]);
     useMemo(() => {
@@ -36,8 +36,8 @@ const QRResImage: SFC<QRResImageProps> = (props) => {
                 <rect id="B-white" fill="white" width={3.08} height={3.08} />
                 <rect id="S-black" fill={otherColor} width={1.02} height={1.02} />
                 <rect id="S-white" fill="white" width={1.02} height={1.02} />
-                <rect id="B" width={3.08} height={3.08} />
-                <rect id="S" width={1.02} height={1.02} />
+                <rect id="B" width={3.08} height={3.08} fill={posColor}/>
+                <rect id="S" width={1.02} height={1.02} fill={posColor}/>
             </defs>
             {gpl.concat(listPoints(props))}
         </svg>
